@@ -1,0 +1,150 @@
+div{
+    /* display: flex;
+    justify-content: space-around; */
+    color: rgb(94, 238, 4);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(45, 43, 43);
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* ======== HEADER =============== */
+.header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.header a{
+    color: rgb(238, 175, 4);    
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.logo img{
+    width: 100%;
+}
+/* =============== MAIN ================= */
+.player{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.player>a>img{
+    width: 200px;
+}
+.gradient-text{
+    background: linear-gradient(to right, #fb66d1 0%, #743cf6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.player a{
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 auto;
+    gap: 30px;
+    text-align: center;
+    
+}
+.player a:hover{
+    transform: scale(0.95);
+}
+.player img{
+    width: 100%;
+    border-radius: 50%;
+}
+/* =============== AUDIO =============== */
+.headerAudio{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+/* .imgHeaderAudio{
+    padding: 5%;
+    margin-left: 20%;
+} */
+.titleHeaderAudio{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.playList{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+/* .playListItem{
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    margin-left: 10%;
+} */
+/* .track{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+} */
+/* ========== VIDEOPlayer ========== */
+/* .playListVideo{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item iframe{
+    width: 50em;
+    height: 30em;
+} */
+
+/* list */
+
+.list_lesson{
+    font-size: 26px;
+    margin-left: 10%;
+
+}
+.list_lesson> a {
+    color: #743cf6;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;   /* убирает подчеркивание */
+    display: inline-block;   /* чтобы работала трансформация */
+    transition: transform 0.2s ease; /* плавное увеличение */
+}
+
+.list_lesson>a:hover {
+    transform: scale(0.9); /* увеличение ссылки при наведении */
+    color: #fb66d1;
+}
