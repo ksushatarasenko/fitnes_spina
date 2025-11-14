@@ -1,9 +1,10 @@
-const listContainer = document.querySelector(".playList");
+const container = document.querySelector(".playList");
 
-lessons.forEach(lesson => {
+dailyLessons.forEach(lesson => {
     const a = document.createElement("a");
     a.href = `lesson.html?id=${lesson.id}`;
     a.className = "lessonLink";
     a.innerText = lesson.title;
-    listContainer.appendChild(a);
+    container.appendChild(a);
 });
+

@@ -94,7 +94,7 @@ body{
     padding: 5%;
 }
 
-.playList{
+.playList {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -128,6 +128,8 @@ body{
     height: 30em;
 } */
 
+
+
 /* list */
 
 .list_lesson{
@@ -147,4 +149,18 @@ body{
 .list_lesson>a:hover {
     transform: scale(0.9); /* увеличение ссылки при наведении */
     color: #fb66d1;
+}
+/*  */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    gap: 15%;
+    text-align: center;
+}
+.lessonBlock>h4{
+    text-align: center;
+}
+.lessonBlock>div>a{
+    font-size: 24px;
 }
