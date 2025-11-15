@@ -1,0 +1,29 @@
+<div class="accordion" onclick="togglePanel('p1')">Бізе/Зефір на еритритолі</div>
+            <div class="panel" id="p1">
+                <div class="video">
+                    <iframe
+                        src="https://embed-cloudfront.wistia.com/deliveries/5c2a0d58a45838f60f1825abe7f5f714d9a1abc8.m3u8"
+                        frameborder="0"></iframe>
+                </div>
+                <div class="flex">
+                    <div class="text">
+                    <h5>Інгредієнти:</h5>
+                    <p>Білки курячих яєць - 3</p>
+                    <p>Еритритол - 3 столові ложки</p>
+                </div>
+                </div>
+                <div>
+                    <h5>Приготування:</h5>
+                    <div class="recept">
+                        <p>Починай повільно взбивати білки і потихеньку додавай еритритол. Готову білу масу ложкою викладай на пергамент і випікай 1 годину при температурі 100 градусів. Дивись, щоб хмарки не згоріли. Діставай і смакуй)</p>
+                        <h6>Ось і все, смачного!</h6>
+                        <p><b><em>Ккал на всі бізешки приблизно - 210</em></b></p>
+                    </div>
+
+                </div>
+
+                <div class="image">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147570465/products/STSclGVqQUSsEuAUxAiS_5B344C09-993E-4442-A1D8-9780E00F4D08.jpeg"
+                        alt="" style="width: 40%;">
+                </div>
+            </div>

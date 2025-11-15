@@ -7,6 +7,7 @@
     <title>Fitnes_1</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styleLesson.css">
+    <link rel="stylesheet" href="./styleAccordion.css">
 </head>
 
 <body>
@@ -20,8 +21,131 @@
     <main class="main">
         <div class="flex">
             <div class="lessonBlock">
-                <h4>7 тренувань на кожен день</h4>
-                <div id="group3" class="playList"></div>
+                <h4></h4>
+                <!-- <div id="group3" class="playList"></div> -->
+            </div>
+
+        </div>
+        <div class="accordion" onclick="togglePanel('p1')">Фуд-трекер «Плануй, їж, худни»</div>
+        <div class="panel" id="p1">
+            <div class="prezent">
+                <iframe src="./image/_ (1).pdf" frameborder="0"></iframe>
+            </div>
+
+        </div>
+        <!--  -->
+
+        <div class="blockAccordion">
+            <div class="accordion" onclick="togglePanel('p1')">Кабачковий рулет</div>
+            <div class="panel" id="p1">
+                <div class="video">
+                    <iframe
+                        src="https://embed-cloudfront.wistia.com/deliveries/2c3cb6801578ea811843724950e8d996204a912e.m3u8"
+                        frameborder="0"></iframe>
+                </div>
+                <div class="flex">
+                    <div class="text">
+                        <h5>Інгредієнти:</h5>
+                        <p>Кабачки - 3 шт</p>
+                        <p>Яйце куряче - 2 шт</p>
+                        <p>Спеції та сіль - на смак</p>
+                    </div>
+                    <div class="text">
+                        <h5>Додаток:</h5>
+                        <p>Філе лосося запечене - 150 г</p>
+                        <p>Кінза - трошки</p>
+                    </div>
+                </div>
+                <div>
+                    <h5>Приготування:</h5>
+                    <div class="recept">
+                        <p>В одну миску натерти два кабачки та змішати з яйцями. Третій нарізати тоненько кільцями.
+                            Кабачок з яйцем вилити на пергамент і зверху викласти кільця кабачка один за одним по всій
+                            площі. Випікати 20 хвилин при температурі 180 градусів. Коли кабачковий лист охолоне, його
+                            треба перегорнути, викласти будь-яку начинку і скрутити в рулет.</p>
+                        <h6>Ось і все, смачного!</h6>
+                        <p><b><em>Ккал на рулет без начинки приблизно - 250, а з лососем вже десь - 450</em></b></p>
+                    </div>
+
+                </div>
+
+                <div class="image">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147570465/products/YjM9CCMTbOSh6ryuRtOS_073CC731-7D2A-41AE-9C80-AFC1EFF9D2BF.jpeg"
+                        alt="" style="width: 40%;">
+                </div>
+            </div>
+        </div>
+        <div class="blockAccordion">
+            <div class="accordion" onclick="togglePanel('p1')">Бізе/Зефір на еритритолі</div>
+            <div class="panel" id="p1">
+                <div class="video">
+                    <iframe
+                        src="https://embed-cloudfront.wistia.com/deliveries/5c2a0d58a45838f60f1825abe7f5f714d9a1abc8.m3u8"
+                        frameborder="0"></iframe>
+                </div>
+                <div class="flex">
+                    <div class="text">
+                        <h5>Інгредієнти:</h5>
+                        <p>Білки курячих яєць - 3</p>
+                        <p>Еритритол - 3 столові ложки</p>
+                    </div>
+                </div>
+                <div>
+                    <h5>Приготування:</h5>
+                    <div class="recept">
+                        <p>Починай повільно взбивати білки і потихеньку додавай еритритол. Готову білу масу ложкою
+                            викладай на пергамент і випікай 1 годину при температурі 100 градусів. Дивись, щоб хмарки не
+                            згоріли. Діставай і смакуй)</p>
+                        <h6>Ось і все, смачного!</h6>
+                        <p><b><em>Ккал на всі бізешки приблизно - 210</em></b></p>
+                    </div>
+
+                </div>
+
+                <div class="image">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147570465/products/STSclGVqQUSsEuAUxAiS_5B344C09-993E-4442-A1D8-9780E00F4D08.jpeg"
+                        alt="" style="width: 40%;">
+                </div>
+            </div>
+        </div>
+        <div class="blockAccordion">
+            <div class="accordion" onclick="togglePanel('p1')">Хрусткий антистрес салат</div>
+            <div class="panel" id="p1">
+                <div class="video">
+                    <iframe
+                        src="https://embed-cloudfront.wistia.com/deliveries/61650f9a4df81796c4d9ed8ee703444aea1bf754.m3u8"
+                        frameborder="0"></iframe>
+                </div>
+                <div class="flex">
+                    <div class="text">
+                        <h5>Інгредієнти:</h5>
+                        <p>Броколі - половинка цвітіння (можна і без)</p>
+                        <p>Айсберг - половина голівки</p>
+                        <p>Стебло селери - 2 стебла</p>
+                        <p>Морква - 1 шт</p>
+                        <p>Солоні огірки - 100 г</p>
+                    </div>
+                    <div class="text">
+                        <p>Зелень - укроп+кінза трошки</p>
+                        <p>Лохина - 100 г</p>
+                        <p>Авокадо - 1 шт</p>
+                        <p>Лайм - половинка</p>
+                        <p>Спеції - на смак</p>
+                    </div>
+                </div>
+                <div>
+                    <h5>Приготування:</h5>
+                    <div class="recept">
+                        <p>Броколі помий та обпали на гарячій пательні по 4 хвилини з кожної сторони під кришкою. Селеру і моркву очисти і наріж з усіма іншими інгредієнтами. Наріж готовий броколі та додай авокадо з лаймом і спеціями. Ретельно перемішай і ВУАЛЯ!</p>
+                        <p><b><em>Ккал на великий салат приблизно 400 (враховуючи цілий авокадо)</em></b></p>
+                    </div>
+
+                </div>
+
+                <div class="image">
+                    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147570465/products/xvBNf7LRRIypUW3d3XLF_6AE786AA-7EF7-4C87-904D-FD5E0DEB0116.jpeg"
+                        alt="" style="width: 40%;">
+                </div>
             </div>
         </div>
 
@@ -30,6 +154,8 @@
 
     <!-- <script src="./scripts/lessons.js"></script> -->
     <script src="./scripts/lessons-list.js"></script>
+    <script src="./scripts/accordion.js"></script>
+
 </body>
 
 <script src="./scripts/lessons.js"></script>

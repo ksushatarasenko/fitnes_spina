@@ -1,0 +1,46 @@
+ .accordion {
+    background: #7c7878;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .accordion:hover {
+    background: #a19d9d;
+  }
+
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    background: #676565;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .panel.open {
+    padding: 10px;
+    opacity: 1;
+
+  }
+
+  
+
+  .text{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: start;
+    padding: 5%;
+    line-height: 0.8;
+  }
+  
